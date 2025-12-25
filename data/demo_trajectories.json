@@ -1,0 +1,3577 @@
+[
+  [
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          5,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              3,
+              1
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          4,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              3,
+              1
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          3,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              3,
+              1
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          3,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              3,
+              1
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          3,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              3,
+              1
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          3,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              3,
+              1
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          5,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              3
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              3
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              3
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              3
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          2,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          0
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          4,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          3,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          2,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          0
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              3,
+              0
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          2,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          0
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              3
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          5,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              3
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              3
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              3
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              3
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              3
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          2,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              4
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              4
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              4
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              4
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              4
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              5,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          2,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              5,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              5,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              5,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          4,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          3,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          2,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          1,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          0,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          0,
+          6
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          2,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          2,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          2,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              2,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          2,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          0
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              4,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              2,
+              5
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          4,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          5,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          6,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          6,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          6,
+          0
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              1
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              4,
+              1
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              1,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              1,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              1,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          6
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              2,
+              6
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              1,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              0,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          5,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              1
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              6
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          6,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              1
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              6
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          6,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              1
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              6
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the red block",
+        "agent_pos": [
+          6,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              4
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              6,
+              1
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              6
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          2,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          4,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          4,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              4,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          2,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          1,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 2,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          0,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              3
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          5,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          4,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 0,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the blue block",
+        "agent_pos": [
+          3,
+          5
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              6,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              3,
+              5
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              2
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          3,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          4,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          5,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          5,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              1,
+              5
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              0,
+              2
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              5,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ],
+  [
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          5,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 1,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          1
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          2
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          3
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 3,
+      "reward": 0.0
+    },
+    {
+      "obs": {
+        "instruction": "pick up the green block",
+        "agent_pos": [
+          6,
+          4
+        ],
+        "objects": [
+          {
+            "color": "red",
+            "pos": [
+              0,
+              0
+            ]
+          },
+          {
+            "color": "blue",
+            "pos": [
+              5,
+              6
+            ]
+          },
+          {
+            "color": "green",
+            "pos": [
+              6,
+              4
+            ]
+          }
+        ],
+        "holding": null
+      },
+      "action": 4,
+      "reward": 1.1
+    }
+  ]
+]
