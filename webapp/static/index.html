@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>vla-starter interactive demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; padding: 20px; max-width: 900px; margin: 0 auto; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+      button { padding: 10px 14px; border-radius: 10px; border: 1px solid #ddd; background: #fff; cursor: pointer; }
+      button:hover { background: #f6f6f6; }
+      input { padding: 10px 12px; border-radius: 10px; border: 1px solid #ddd; width: min(520px, 100%); }
+      .card { border: 1px solid #eee; border-radius: 14px; padding: 14px; background: #fff; }
+      img { width: 100%; height: auto; border-radius: 14px; border: 1px solid #eee; }
+      .muted { color: #666; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono"; }
+    </style>
+  </head>
+  <body>
+    <h1>vla-starter</h1>
+    <p class="muted">Interactive Vision-Language-Action demo (gridworld + learned policy).</p>
+
+    <div class="row card">
+      <input id="instruction" placeholder='Try: "pick up the red block"' />
+      <button id="resetBtn">Reset</button>
+      <button id="stepBtn">Step</button>
+      <button id="runBtn">Auto-run</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+
+    <div class="card" style="margin-top: 12px;">
+      <div class="row">
+        <div><span class="muted">Instruction:</span> <span id="instrText" class="mono"></span></div>
+      </div>
+      <div class="row" style="margin-top: 8px;">
+        <div><span class="muted">Last action:</span> <span id="actionText" class="mono">-</span></div>
+        <div><span class="muted">Reward:</span> <span id="rewardText" class="mono">-</span></div>
+        <div><span class="muted">Done:</span> <span id="doneText" class="mono">-</span></div>
+        <div><span class="muted">Info:</span> <span id="infoText" class="mono">-</span></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 12px;">
+      <img id="frame" alt="env frame" />
+    </div>
+
+    <script>
+      let timer = null;
+
+      function setFrame(png_b64) {
+        document.getElementById("frame").src = "data:image/png;base64," + png_b64;
+      }
+
+      async function postJSON(url, bodyObj) {
+        const res = await fetch(url, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: bodyObj ? JSON.stringify(bodyObj) : "{}"
+        });
+        return await res.json();
+      }
+
+      async function reset() {
+        const instr = document.getElementById("instruction").value;
+        const data = await postJSON("/api/reset", { instruction: instr });
+        document.getElementById("instrText").textContent = data.instruction || "";
+        document.getElementById("actionText").textContent = "-";
+        document.getElementById("rewardText").textContent = "-";
+        document.getElementById("doneText").textContent = "false";
+        document.getElementById("infoText").textContent = JSON.stringify(data.info || {});
+        setFrame(data.png_b64);
+      }
+
+      async function step() {
+        const data = await postJSON("/api/step");
+        document.getElementById("instrText").textContent = data.instruction || "";
+        document.getElementById("actionText").textContent = String(data.action);
+        document.getElementById("rewardText").textContent = String(data.reward);
+        document.getElementById("doneText").textContent = String(data.done);
+        document.getElementById("infoText").textContent = JSON.stringify(data.info || {});
+        setFrame(data.png_b64);
+
+        if (data.done && timer) {
+          stop();
+        }
+      }
+
+      function run() {
+        if (timer) return;
+        timer = setInterval(step, 250);
+      }
+
+      function stop() {
+        if (timer) {
+          clearInterval(timer);
+          timer = null;
+        }
+      }
+
+      document.getElementById("resetBtn").onclick = reset;
+      document.getElementById("stepBtn").onclick = step;
+      document.getElementById("runBtn").onclick = run;
+      document.getElementById("stopBtn").onclick = stop;
+
+      // initial load
+      reset();
+    </script>
+  </body>
+</html>
